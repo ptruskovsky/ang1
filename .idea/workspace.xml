@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629ad454-ae5c-4a2b-9912-3019bb2ef1d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/social/social.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/social/social.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/widget/widget.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/widget/widget.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/widget-app/main.632eafce1673dd98da34.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/widget/widget.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -84,27 +83,7 @@
             <path>
               <item name="ang" type="b2602c69:ProjectViewProjectNode" />
               <item name="ang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545215131076</updated>
-      <workItem from="1545215132216" duration="1728000" />
+      <workItem from="1545215132216" duration="1953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1728000" />
+    <option name="totallyTimeSpent" value="1953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="333" y="72" width="1798" height="1226" extended-state="0" />
@@ -242,8 +221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/widget/widget.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
