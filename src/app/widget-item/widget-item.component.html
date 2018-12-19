@@ -1,0 +1,13 @@
+<div class="activity-row">
+  <div class="activity-desc">
+    <h5>{{widgetItem.address}}</h5>
+    <div [innerHtml]="widgetItem.shortDescription | safe: 'html'"></div>
+    <h6>Тел: {{widgetItem.phone}}</h6>
+  </div>
+  <div class="activity-img">
+    <ul>
+      <li><img [src]="widgetItem.img" alt=""/></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
