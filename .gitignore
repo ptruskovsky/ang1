@@ -1,12 +1,1 @@
 node_modules
-.nyc
-.vscode
-.DS_Store
-.idea/
-!webpack.config.js
-coverage
-package-lock.json
-class-work.js
-AirportRequestModel.js
-AirportResponseModel.js
-dist
