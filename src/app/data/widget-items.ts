@@ -1,4 +1,5 @@
 import { Observable, of } from 'rxjs';
+import {delay} from 'rxjs/operators';
 
 export interface IWidgetItem {
   img: string;
@@ -113,4 +114,4 @@ type: 'apartments'
   type: 'apartments'
 }];
 
-export const widgetItems$: Observable<IWidgetItem[]> = of(widgetItems);
+export const widgetItems$: Observable<IWidgetItem[]> = of(widgetItems).pipe(delay(3000));

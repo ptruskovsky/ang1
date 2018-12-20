@@ -9,6 +9,7 @@ import { WidgetComponent } from './widget/widget.component';
 import { WidgetItemComponent } from './widget-item/widget-item.component';
 import { SafePipe } from './pipes/safe.pipe';
 import { TypeFilterPipe } from './pipes/type-filter.pipe';
+import { SelectedTypePipe } from './pipes/selected-type.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TypeFilterPipe } from './pipes/type-filter.pipe';
     WidgetComponent,
     WidgetItemComponent,
     SafePipe,
-    TypeFilterPipe
+    TypeFilterPipe,
+    SelectedTypePipe
   ],
   imports: [
     BrowserModule,
