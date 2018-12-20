@@ -1,17 +1,22 @@
+<ng-container *ngIf="widgetItem?.social_info; else nodatatemplate">
 <div class="teddy-bear">
   <div class="teddy-text">
-    <h4>Социальная активность</h4>
+    <h4>{{widgetItem?.social_info?.title}}</h4>
     <span class="w-line"> </span>
-    <img src="../../assets/b1.jpg" alt=""  class="img-responsive">
+    <img [src]="widgetItem?.social_info?.img" alt=""  class="img-responsive">
   </div>
   <div class="teddy-follow">
     <ul>
-      <li class="folw-h"><h3>2850</h3>
-        <p>Подписчики</p>
+      <li class="folw-h">
+        <h3>{{widgetItem?.social_info?.followers}}</h3>
+        <p>Читателей</p>
       </li>
-      <li><h3>675</h3>
-        <p>Подписок</p>
+      <li>
+        <h3>{{widgetItem?.social_info?.following}}</h3>
+        <p>Читаемых</p>
       </li>
     </ul>
   </div>
 </div>
+</ng-container>
+<ng-template #nodatatemplate><div><span class="p-white">загрузка social...</span></div></ng-template>

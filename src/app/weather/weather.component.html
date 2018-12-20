@@ -1,7 +1,10 @@
+<ng-container *ngIf="widgetItem?.weather; else nodatatemplate">
 <div class="temperatur">
-  <h5>Погода</h5>
-  <span class="w-line"> </span>
-  <span class="icon-p wi wi-rain-wind"> </span>
-  <h2>14<sup class="degree">°</sup></h2>
-  <h6>Вода 20<sup class="degree">°</sup></h6>
+    <h5>{{widgetItem.weather.title}}</h5>
+    <span class="w-line"> </span>
+    <span class="icon-p wi" [ngClass]="widgetItem?.weather?.icon"></span>
+    <h2>{{widgetItem.weather.temperature}}<sup class="degree">°</sup></h2>
+    <h6>Вода {{widgetItem.weather.water}}<sup class="degree">°</sup></h6>
 </div>
+</ng-container>
+<ng-template #nodatatemplate><div><span class="p-white">загрузка погоды...</span></div></ng-template>
