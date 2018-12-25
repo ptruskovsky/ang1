@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IWidgetItem, widgetItems } from './data/widget-items';
+import {Component} from '@angular/core';
+import { IWidgetItem } from './data/widget-items';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,4 @@ import { IWidgetItem, widgetItems } from './data/widget-items';
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  public title = 'widget-app';
-}
+  public selectedWidgetItem: IWidgetItem; }

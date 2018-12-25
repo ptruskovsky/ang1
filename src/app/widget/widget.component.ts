@@ -1,7 +1,6 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnDestroy, OnInit, Output} from '@angular/core';
 import {Subscription} from 'rxjs';
 import { IWidgetItem, widgetItems$ } from '../data/widget-items';
-import {SelectedWidgetItemService} from '../services/selected-widget-item.service';
 
 @Component({
   selector: 'app-widget',
@@ -13,8 +12,8 @@ export class WidgetComponent implements OnInit, OnDestroy {
   public basicSubscription: Subscription;
   public widgetItemType: string;
 
-  constructor(private _selectedWidgetItemService: SelectedWidgetItemService) { }
-
+  @Output()
+  public widgetItemChange: EventEmitter<IWidgetItem> = new EventEmitter();
   private getItemsTypes(items: IWidgetItem[]): string[] {
     const result: string[] = [];
     items.forEach((item: IWidgetItem) => {
@@ -43,7 +42,8 @@ export class WidgetComponent implements OnInit, OnDestroy {
 
   // when clicking on item
   public nextSelectedWidgetItem(item: IWidgetItem): void {
-    this._selectedWidgetItemService.nextSelectedWidgetItem$$.next(item);
+    this.widgetItemChange.emit(item);
+    console.log('Emmiting next');
   }
   // when clicking on type link
   public changeWidgetItemType(selectedType: string): void {

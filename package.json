@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href \"https://ptruskovsky.github.io/ang/\" && angular-cli-ghpages --dir dist/widget-app "
+    "deploy": "ng build --prod --base-href \"https://ptruskovsky.github.io/ang1/\" && angular-cli-ghpages --dir dist/widget-app "
   },
   "private": true,
   "dependencies": {
